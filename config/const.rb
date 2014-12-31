@@ -1,0 +1,5 @@
+module JSONRPCOverMQTT
+  BROKER_ADDRESS = ENV['BROKER_ADDRESS'] || 'localhost'
+  SERVER_TOPIC_NAME = ENV['SERVER_TOPIC_NAME'] || 'server'
+  CLIENT_TOPIC_NAME = ENV['CLIENT_TOPIC_NAME'] || 'client'
+end

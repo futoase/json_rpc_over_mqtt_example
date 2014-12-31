@@ -1,0 +1,5 @@
+require 'json_rpc_over_mqtt_example'
+
+logger.info("Starting the JSONRPC over MQTT server")
+
+JSONRPCOverMQTT::MQTT::Connect::start
